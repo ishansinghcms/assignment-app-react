@@ -1,0 +1,32 @@
+.product-container {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 3%;
+  padding: 16px;
+}
+
+.bold-product {
+  font-weight: bold;
+  margin: 0;
+}
+
+.top-product-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-top-product-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-product {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #fafbff;
+}
+
+.search-bar-product {
+  padding-right: 15px;
+}

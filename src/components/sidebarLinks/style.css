@@ -1,0 +1,10 @@
+.sidebar-link-container {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-link-container span,
+.sidebar-link-container p {
+  margin: 0;
+  vertical-align: middle;
+}

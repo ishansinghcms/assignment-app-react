@@ -1,0 +1,13 @@
+.profileImg {
+  border: 1px solid #040440;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.icon-text {
+  padding-left: 15px;
+}
+
+.bold-profile {
+  font-weight: bold;
+}

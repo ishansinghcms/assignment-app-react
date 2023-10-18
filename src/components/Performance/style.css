@@ -1,0 +1,122 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.card {
+  width: 23%;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+}
+
+.card-icon {
+  margin-right: 13px;
+}
+
+.card-icon .material-symbols-outlined {
+  font-size: 8rem;
+}
+
+.p-heading {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  color: #bdbdbd;
+}
+
+.p-earning {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.p-perform {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.aicon {
+  color: #00a644;
+}
+
+.bicon {
+  color: #9f01ff;
+}
+
+.cicon {
+  color: #0e5ec1;
+}
+
+.dicon {
+  color: #d7000d;
+}
+
+@media (max-width: 1100px) {
+  .card-icon {
+    margin-right: 0;
+  }
+
+  .p-heading {
+    font-size: 8px;
+  }
+
+  .p-earning {
+    font-size: 12px;
+  }
+
+  .p-perform {
+    font-size: 8px;
+  }
+
+  .card-icon .material-symbols-outlined {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 723px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 75%;
+    margin: 15px;
+  }
+
+  .card-icon {
+    margin-right: 13px;
+  }
+
+  .p-heading {
+    font-size: 12px;
+  }
+
+  .p-earning {
+    font-size: 18px;
+  }
+
+  .p-perform {
+    font-size: 12px;
+  }
+
+  .card-icon .material-symbols-outlined {
+    font-size: 8rem;
+  }
+}

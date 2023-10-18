@@ -1,0 +1,141 @@
+.bar-chart-container {
+  width: 65%;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 3%;
+  padding: 8px;
+  padding-bottom: 30px;
+}
+
+.aug-bold {
+  font-weight: bold;
+}
+
+.text-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 8px 8px;
+}
+
+.sub-heading {
+  font-size: 12px;
+  color: #cccccc;
+  margin: 0 0 8px 8px;
+}
+
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  height: 200px;
+}
+
+.bar {
+  flex: 1;
+  margin: 0 10px;
+  height: 200px;
+  background-color: #f2efff;
+  border-radius: 14px;
+  position: relative;
+}
+
+.label {
+  text-align: center;
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+}
+
+.january {
+  height: 150px;
+}
+
+.february {
+  height: 100px;
+}
+
+.april {
+  height: 160px;
+}
+
+.may {
+  height: 170px;
+}
+
+.june {
+  height: 70px;
+}
+
+.july {
+  height: 170px;
+}
+
+.august {
+  background-color: #5a32ea;
+}
+
+.september {
+  height: 190px;
+}
+
+.october {
+  height: 160px;
+}
+
+.november {
+  height: 150px;
+}
+
+.december {
+  height: 165px;
+}
+
+.highlighted {
+  background-color: #5a32ea;
+  height: 100%;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #fafbff;
+  color: #9fa0a1;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+@media (max-width: 930px) {
+  .label {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 723px) {
+  .bar-chart-container {
+    width: 95%;
+  }
+
+  .label {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 455px) {
+  .label {
+    display: none;
+  }
+}

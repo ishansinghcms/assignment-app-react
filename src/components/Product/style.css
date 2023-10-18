@@ -1,0 +1,31 @@
+.pd-container {
+  display: flex;
+  align-items: center;
+}
+
+.inner-product {
+  padding-left: 15px;
+}
+
+.img {
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.pd-heading {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.pd-content {
+  font-size: 12px;
+  color: #bbbfd1;
+}
+
+.txt {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 10px;
+}

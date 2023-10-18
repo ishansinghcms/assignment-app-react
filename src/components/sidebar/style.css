@@ -1,0 +1,130 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #040440;
+  overflow-y: auto;
+}
+
+.top-container {
+  flex: 1;
+}
+
+.sidebar a,
+.sidebar h4,
+.icon-container {
+  padding: 10px;
+  margin: 10px 17px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 13px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-text {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 10px;
+}
+
+.sidebar h4 {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-bottom: 13px;
+}
+
+.sidebar a:hover {
+  background-color: #2d2d69;
+  border-radius: 8px;
+}
+
+.selected {
+  background-color: #2d2d69;
+  border-radius: 8px;
+}
+
+.profile {
+  font-size: 1.5rem;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.toggle-button {
+  border-color: transparent;
+  border-radius: 10px;
+  background-color: #040440;
+  color: white;
+  margin: 0 auto;
+}
+
+.close-btn {
+  background-color: white;
+  color: #040440;
+}
+
+@media (max-width: 723px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+    position: fixed;
+    z-index: 2;
+  }
+
+  .sidebar a,
+  .sidebar h4,
+  .icon-container {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 10px;
+  }
+
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .icon-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    margin: 10px;
+    font-size: 10px;
+  }
+
+  .icon-text {
+    font-size: 12px;
+  }
+
+  .sidebar h4 {
+    font-size: 14px;
+  }
+
+  .sidebar a,
+  .sidebar h4 {
+    padding: 5px 10px;
+  }
+
+  .sidebar-link-container {
+    padding: 5px 10px;
+  }
+
+  .profileImg {
+    width: 30px;
+    height: 30px;
+  }
+}
